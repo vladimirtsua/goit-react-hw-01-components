@@ -1,0 +1,9 @@
+.Container__tr {
+    height: 40px;
+    text-align: center;
+  }
+  
+  .Container__tr:nth-child(2n) {
+    background-color: #ecf1f3;
+  }
+  

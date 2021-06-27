@@ -1,0 +1,13 @@
+.Transaction__history {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Header__table {
+    background: linear-gradient(180deg, rgba(113,241,171,0.9192051820728291) 24%, rgba(57,137,232,0.7679446778711485) 49%);
+  }
+  
+  .Header__table > tr {
+    height: 50px;
+  }

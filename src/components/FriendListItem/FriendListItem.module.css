@@ -1,0 +1,32 @@
+.Status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .Online {
+    composes: Status;
+    background-color: green;
+  }
+  
+  .Ofline {
+    composes: Status;
+    background-color: red;
+  }
+  .Item {
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #71f1ab;
+  }
+  .Item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  
+  .Text__item {
+    font-size: 32px;
+  }

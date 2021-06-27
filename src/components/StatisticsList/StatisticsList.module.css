@@ -1,0 +1,22 @@
+.Statistics{
+    width: 325px;
+    display: block;
+    align-items: center;
+    text-align: center;
+margin-left: 40px;
+margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(113,241,171,0.9192051820728291) 47%, rgba(224,57,232,0.7679446778711485) 68%);
+}
+.Stat__list {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+.Statistics li {
+    display: grid;
+    width: calc(100% / 3);
+   text-align: center;
+   
+  }
